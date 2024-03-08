@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace OrthogonalTrianglePathMaxSum
+namespace OrthogonalTriangleMaxSumPathFinder
 {
     public class OrthogonalTriangleProcessor
     {

@@ -6,7 +6,7 @@
 //using System.Text;
 //using System.Threading.Tasks;
 
-//namespace OrthogonalTrianglePathMaxSum
+//namespace OrthogonalTriangleMaxSumPathFinder
 //{
 //    internal class VectorProcessor
 //    {

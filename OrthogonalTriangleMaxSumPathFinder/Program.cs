@@ -1,4 +1,4 @@
-﻿namespace OrthogonalTriangleMaxSumPathFinder
+﻿namespace 
 {
     class Program
     { 

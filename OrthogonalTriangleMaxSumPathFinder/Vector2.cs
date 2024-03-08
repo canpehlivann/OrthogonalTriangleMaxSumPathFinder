@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace OrthogonalTrianglePathMaxSum
+namespace OrthogonalTriangleMaxSumPathFinder
 {
     //This object is a representation of a (x,y) coordinate. This will be used in mapping of the triangle elements list
     //to coordinates. This is a vector that has magnitude as the representation of a number in the triangle.
