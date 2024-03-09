@@ -1,1 +1,1 @@
-# OrthogonalPyramidPathMaxSum
+# OrthogonalTriangleMaxSumPathFinder
