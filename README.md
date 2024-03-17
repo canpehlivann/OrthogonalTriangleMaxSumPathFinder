@@ -1,16 +1,27 @@
 # OrthogonalTriangleMaxSumPathFinder
 From a given triangle file, it calculates the maximum sum with finding the right path adhering to the specified rules which they are the diagonal and down only move rules.
 
+*Question1: You will have an orthogonal triangle input from a file and you need to find the maximum sum of the numbers according to given rules below;
+
+1. You will start from the top and move downwards to an adjacent number as in below.
+2. You are only allowed to walk downwards and diagonally.
+3. You can only walk over NON PRIME NUMBERS.
+4. You have to reach at the end of the pyramid as much as possible.
+5. You have to treat the input as pyramid.
+
 According to above rules the maximum sum of the numbers from top to bottom in below example is 24.
 
-  *1
- *8 4
-2 *6 9
-8 5 *9 3
-As you can see this has several paths that fits the rule of NOT PRIME NUMBERS; 1>8>6>9, 1>4>6>9, 1>4>9>9 1 + 8 + 6 + 9 = 24. As you see 1, 8, 6, 9 are all NOT PRIME NUMBERS and walking over these yields the maximum sum.
+      *1
+     *8 4
+    2 *6 9
+    8 5 *9 3
+
+As you can see this has several paths that fits the rule of NOT PRIME NUMBERS; 1>8>6>9, 1>4>6>9, 1>4>9>9
+1 + 8 + 6 + 9 = 24.  As you see 1, 8, 6, 9 are all NOT PRIME NUMBERS and walking over these yields the maximum sum.
+
 
 *Question2: According to assignment that you implemented what is the maximum sum of below input? It means please take this input (as file or constants directly inside the code) for your implementation and solve by using it.
-
+```
 215
 193 124
 117 237 442
@@ -26,3 +37,4 @@ As you can see this has several paths that fits the rule of NOT PRIME NUMBERS; 1
 131 171 522 137 217 224 291 413 528 520 227 229 928
 223 626 034 683 839 053 627 310 713 999 629 817 410 121
 924 622 911 233 325 139 721 218 253 223 107 233 230 124 233 
+```
